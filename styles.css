@@ -7,6 +7,7 @@ html,body{
 	height: 100%;
 }
 
+
 #splash {
 	background: #000000;
 	background-image:url('bg.jpg');
@@ -44,14 +45,6 @@ html,body{
 ::selection {
 	background: #eeff41;
 }
-
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
-}   
 
 .p {
    font-size: 20px; 
@@ -126,7 +119,7 @@ transition: all .2s ease-in-out;
 
 #title {
 	font-family: 'Roboto', sans-serif;
-	font-size: 75px;
+	font-size: 60px;
 	font-weight: 100;
 	text-align: center;
 	margin-top: 175px;
@@ -139,7 +132,7 @@ transition: all .2s ease-in-out;
 
 #subtitle {
 	font-family: 'Roboto', sans-serif;
-	font-size: 35px;
+	font-size: 28px;
 	font-weight: 100;
 	text-align: center;
 	color: #00bcd4;
@@ -148,6 +141,15 @@ transition: all .2s ease-in-out;
 	-moz-text-size-adjust: auto;
 	-webkit-text-size-adjust: auto;
 	-ms-text-size-adjust: auto;
+}
+
+@media (min-width: 768px) {
+	#title{
+		font-size: 75px;
+	}
+	#subtitle{
+		font-size: 35px;
+	}
 }
 
 #about_me {
