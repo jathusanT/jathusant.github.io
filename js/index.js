@@ -1,4 +1,4 @@
 $('.scrollLink').on("click", function(event){
 	event.preventDefault();
-	$.scrollTo($(event.target.hash), 1000);
+	$.scrollTo($(event.target.hash), 500);
 });
