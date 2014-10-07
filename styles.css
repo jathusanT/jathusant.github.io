@@ -7,7 +7,6 @@ html,body{
 	height: 100%;
 }
 
-
 #splash {
 	background: #000000;
 	background-image:url('bg.jpg');
@@ -23,8 +22,7 @@ html,body{
 #about{
 	padding-right: 75px;
 	padding-left: 75px;
-	background: #000000;
-	font-family: 'Roboto', sans-serif;	background: rgb(0,0,0); /* Old browsers */
+	font-family: 'Roboto', sans-serif;
 	color: #FFFFFF;
 	font-size: 15px;
 	font-weight: 100;
@@ -36,8 +34,10 @@ html,body{
 	padding-right: 75px;
 	padding-left: 75px;
 	font-family: 'Roboto', sans-serif;
-	color: #FFFFFF;
 	font-weight: 100;
+	font-size: 15px;
+	background-image:url('black.png');
+	color: #FFFFFF;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -49,26 +49,6 @@ html,body{
 .p {
    font-size: 20px; 
 }    
-@media screen and (max-width: 600px) {
-  .p {
-   font-size: 12px; 
-  }
-}
-@media screen and (max-width: 800px) {
-  .p {
-   font-size: 14px; 
-  }
-}
-@media screen and (max-width: 1000px) {
-  .p {
-   font-size: 16px; 
-  }
-}
-@media screen and (max-width: 1200px) {
-  .p {
-   font-size: 18px; 
-  }
-}
 
 .navbar {
 	padding-top: 15px;
@@ -177,7 +157,7 @@ a:visited {
 }
 
 a:hover {
-    color: #3f51b5;
+    color: #eeff41;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-ms-transition: all .2s ease-in-out;
@@ -186,10 +166,15 @@ a:hover {
 }
 
 a:active {
-    color: #3f51b5;
+    color: #eeff41;
 }
 
 .social_icons{
+	opacity: 0.5;
+	margin-right: 10px;
+}
+.social_icons:hover{
+	opacity: 0.75;
 	margin-right: 10px;
 }
 
