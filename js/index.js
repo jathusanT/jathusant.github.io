@@ -4,9 +4,9 @@ $('.scrollLink').on("click", function(event){
 });
 
 $('.img-holder').imageScroll({
-	coverRatio: 0.35
+	coverRatio: 0.05
 });
 
 $('.img-holder2').imageScroll({
-	coverRatio: 0.20
+	coverRatio: 0.05
 });
